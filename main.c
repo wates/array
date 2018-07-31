@@ -1,26 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// argv[1] ‚É–â‘è‚Ìƒtƒ@ƒCƒ‹–¼‚ª“ü‚è‚Ü‚·
+// argv[1] ã«å•é¡Œã®ãƒ•ã‚¡ã‚¤ãƒ«åãŒå…¥ã‚Šã¾ã™
 int main(int argc, char *argv[]) 
 {
     FILE *fp;
 
-    // ƒtƒ@ƒCƒ‹‚Ì“Ç‚İ‚İ
+    // ãƒ•ã‚¡ã‚¤ãƒ«ã®èª­ã¿è¾¼ã¿
     char *filename = argv[1];
     if ((fp = fopen(filename, "r")) == NULL) {
         fprintf(stderr, "Failed to open %s.\n", filename);
         exit(EXIT_FAILURE);
     }
 
-    //##### ‚±‚±‚©‚ç‘‚«Š·‚¦‚Äƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚ñ‚ÅAŒ‹‰Ê‚ğo—Í‚·‚é
+    //##### ã“ã“ã‹ã‚‰æ›¸ãæ›ãˆã¦ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã‚“ã§ã€çµæœã‚’å‡ºåŠ›ã™ã‚‹
     char str[1000];
     fgets(str, sizeof(str), fp);
     printf("%s", str);
 
-    //##### ‚¾‚¢‚½‚¢‚±‚±‚Ü‚Å‘‚«Š·‚¦‚é
+    //##### ã ã„ãŸã„ã“ã“ã¾ã§æ›¸ãæ›ãˆã‚‹
 
-    // ƒtƒ@ƒCƒ‹‚ğ•Â‚¶‚Ü‚·
+    // ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‰ã˜ã¾ã™
     fclose(fp);
 
     return 0;
