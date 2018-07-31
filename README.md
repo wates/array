@@ -3,8 +3,9 @@
 # 全体的な進め方
 * このリポジトリをforkしてください
 * Travis CI を設定して、自動ビルドが通るようにしてください
-    * 参考サイト：[CI機能作成録01 - 環境構築編：TravisCI導入(Qiita @pkkanai)](https://qiita.com/pkkanai/items/df9f8debdb81e9c6137b)
-* forkしたリポジトリの README.md ファイルの「t-kougei-game-comp-2018」の部分を自分のアカウント名に差し替えてください(2箇所)
+   * Travis CI のGitHubアカウントでの登録とforkしたリポジトリをTravisCI側で許可
+   * 参考サイト：[Travis CI入門 Travis CIとGitHubでCIを実現する方法(Change the World!)](http://changesworlds.com/2014/09/introduction-to-travis-ci-and-github-001/)
+* forkしたリポジトリの README.md ファイルの「t-kougei-game-comp-2018」の部分を自分のGitHubアカウント名に差し替えてください(2箇所)
 * main.c ファイルを書き換えて、テストを通るようにしてください。
 * GitHubのアカウントを[こちらのフォーム](https://goo.gl/forms/anAdoxqPKVt8sJGZ2)から教えてください。
 
