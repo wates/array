@@ -6,7 +6,7 @@
    * Travis CI のGitHubアカウントでの登録とforkしたリポジトリをTravisCI側で許可
    * 参考サイト：[Travis CI入門 Travis CIとGitHubでCIを実現する方法(Change the World!)](http://changesworlds.com/2014/09/introduction-to-travis-ci-and-github-001/)
 * forkしたリポジトリの README.md ファイルの「t-kougei-game-comp-2018」の部分を自分のGitHubアカウント名に差し替えてください(2箇所)
-* main.c ファイルを書き換えて、テストを通るようにしてください。
+* 問題を解いて、テストを通るようにしてください。
 * GitHubのアカウントを[こちらのフォーム](https://goo.gl/forms/anAdoxqPKVt8sJGZ2)から教えてください。
 
 # テスト結果
@@ -17,6 +17,8 @@
 
 配列の勉強です。
 入力される文字を配列に順次格納して、取り出すように指示されたら、その値を出力してください。
+プロジェクトのinput#.txtファイルを読み込んで、output#.txtファイルが出力されるかテストをします。
+main.c ファイルだけを書き換えて下さい。
 
 ## 入力される値
 入力は以下のフォーマットで与えられます。
